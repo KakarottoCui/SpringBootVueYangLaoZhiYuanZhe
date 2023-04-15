@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+.mapDiv{
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between; /*元素和元素之间有空格。 */
+  align-content: space-between;/*子元素之间取消空白间隙，并把项目放在容器顶部。*/
+}
+.mapSearchDiv{
+  z-index: 10000;
+  position: absolute;
+  width: 400px;
+  height: 10px;
+  left:10px;
+  top:10px;
+  padding-left: 10px;
+}
+.switchButton{
+  z-index: 10000;
+  position: absolute;
+  width: 400px;
+  height: 10px;
+  left:20px;
+  top:10px;
+  padding-left: 10px;
+  margin-left: 200px;
+}
+.statisticDiv{
+  z-index: 10000;
+  position: absolute;
+  width: 400px;
+  height: 10px;
+  left:10px;
+  top:10px;
+  padding-left: 10px;
+  margin-left: 350px;
+}
+.statisticGroupItem{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+  border-radius: 8px;
+  font-weight:bold
+}
+.mapContainer{
+  height: calc(100vh); //可视高度
+  width: 100%;
+}
