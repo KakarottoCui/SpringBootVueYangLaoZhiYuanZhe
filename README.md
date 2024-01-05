@@ -1,7 +1,11 @@
 # SpringBootVueYangLaoZhiYuanZhe
 基于java SpringBoot和Vue养老服务管理志愿者管理系统设计
 
-演示视频链接：https://live.csdn.net/v/290332
+养老服务系统演示视频链接：https://live.csdn.net/v/290332
+
+志愿者管理系统演示视频链接：
+
+以上两个演示视频仅系统名字不一样，功能是一样的。
 
 实现的功能：
 
